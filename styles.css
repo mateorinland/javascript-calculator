@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #3498db;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: #bdc3c7;
+  width: 250px;
+  height: auto;
+  min-height: 390px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.display {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  background-color: #ecf0f1;
+  padding: 10px;
+  font-size: 28px;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.operations-container {
+  width: 25%;
+}
+
+.numbers-container {
+  width: 75%;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button.light-grey {
+  background-color: #ecf0f1;  
+}
+
+button.dark-grey {
+  background-color: #7f8c8d;
+  color: white;
+}
+
+button.blue {
+  background-color: #3498db;
+  color: white;
+}
+
+button.horizontal {
+  width: 110px;
+  border-radius: 50px;
+}
+
+button.clear {
+  margin-right: 50%;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:hover {
+  opacity: 0.8;
+}
