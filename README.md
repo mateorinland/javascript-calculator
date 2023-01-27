@@ -3,4 +3,4 @@ My JavaScript Calculator solution for freeCodeCamp's Front End Development Libra
 
 Using HTML, CSS, JavaScript and React.js. Opted to not use Bootstrap and SASS in this one to practice basic CSS.
 
-https://codepen.io/mateorinland/full/rNrwdww
+View here: https://codepen.io/mateorinland/full/rNrwdww
